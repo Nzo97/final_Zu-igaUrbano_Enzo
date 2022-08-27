@@ -11,4 +11,12 @@ package modelo;
  */
 public class PasajeroArreglo {
     private int indice;
+    
+    private PasajeroArreglo[] pasajeros;
+
+    public PasajeroArreglo[] getPasajeros() {
+        return pasajeros;
+    }
+    
+    
 }

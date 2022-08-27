@@ -11,5 +11,7 @@ package modelo;
  */
 public class PaisArreglo {
        private int indice;
+       
+       private PaisArreglo[] paises;
     
 }

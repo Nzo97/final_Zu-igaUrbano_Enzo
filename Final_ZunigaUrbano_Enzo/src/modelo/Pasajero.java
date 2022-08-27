@@ -17,4 +17,6 @@ public class Pasajero {
     private String nombres;
     private String apellidos;
     private Date fechaNacimiento;
+    
+    private Asiento asiento;
 }

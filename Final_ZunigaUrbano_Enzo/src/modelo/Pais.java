@@ -13,4 +13,22 @@ public class Pais {
     private String codigo;
     private String nombre;
     
+    private Ciudad[] ciudades;
+
+    public Pais(String codigo, String nombre, Ciudad[] ciudades) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.ciudades = ciudades;
+    }
+    
+    
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+    
 }

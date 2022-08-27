@@ -13,4 +13,14 @@ public class Ciudad {
     private String codigo;
     private String nombre;
     
+    private Aeropuerto aeropuerto;
+
+    private String codciudad;
+
+    public String getCodciudad() {
+        return codciudad;
+    }
+    
+    
+    
 }

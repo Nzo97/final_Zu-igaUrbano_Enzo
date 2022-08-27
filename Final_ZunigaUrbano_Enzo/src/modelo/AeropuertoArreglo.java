@@ -11,4 +11,6 @@ package modelo;
  */
 public class AeropuertoArreglo {
     private int indice;
+    
+    private Aeropuerto[] aeropuertos;
 }

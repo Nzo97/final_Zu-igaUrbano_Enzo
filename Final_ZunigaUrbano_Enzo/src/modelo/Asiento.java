@@ -19,6 +19,30 @@ public class Asiento {
         this.fila = fila;
         this.estado= estado;
     }
+
+    public int getNroasiento() {
+        return nroasiento;
+    }
+
+    public void setNroasiento(int nroasiento) {
+        this.nroasiento = nroasiento;
+    }
+
+    public char getFila() {
+        return fila;
+    }
+
+    public void setFila(char fila) {
+        this.fila = fila;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
     
     
 }
